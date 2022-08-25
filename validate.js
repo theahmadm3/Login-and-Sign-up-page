@@ -22,5 +22,6 @@ function validate() {
         passwordConfirm.innerHTML = "Passwords don't match";
         return false;
     }
+    alert("Form submitted!");
     return true;
 }
